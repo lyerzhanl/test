@@ -1,0 +1,86 @@
+.userData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* #26292d */
+.data__container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+    /* border: 2px solid #26292d; */
+    width: 30%;
+    backdrop-filter: blur(5px);
+}
+
+.form__outer {
+    padding: 10rem;
+    width: 100%;
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.form__title .header__primary {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.form__title span {
+    color: var(--color-secondary);
+}
+
+.signUp div {
+    margin-bottom: 2rem;
+}
+
+#confirm {
+    margin-bottom: 3rem;
+}
+
+.signUp input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 1rem 1rem;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.confirm-input input {
+    border: red 1px solid !important;
+    position: relative;
+}
+
+.confirm-input:after {
+    content: "Password Mismatch!";
+    font-size: 1.5rem;
+    color: red;
+}
+
+
+.signUp input:-webkit-autofill,
+.signUp input:-webkit-autofill:hover,
+.signUp input:-webkit-autofill:focus,
+.signUp input:-webkit-autofill:active {
+    border: 1px solid var(--color-secondary);
+    box-shadow: 1px solid var(--color-secondary);
+}
+
+.signUp .submit {
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+    background: var(--color-secondary);
+}

@@ -1,0 +1,15 @@
+.signIn {
+    height: 100vh;
+}
+
+.signIn .header__primary {
+    font-size: 5.5rem;
+}
+
+.signIn form div {
+    margin-bottom: 5rem;
+}
+
+.signIn form div input {
+    padding: 1.5rem 1rem;
+}

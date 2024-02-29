@@ -1,0 +1,196 @@
+/* Main */
+.landing-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section {
+    max-width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.hero__section {
+    padding-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 13rem auto;
+}
+
+.hero__left {
+    display: flex;
+    align-items: center;
+}
+.hero__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__primary {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.description {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    line-height: 3rem;
+}
+
+.left__content {
+    width: 60%;
+}
+
+.left__content form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.left__content form input {
+    width: 100%;
+    padding: 2.3rem 2.3rem;
+    border-radius: 2px;
+    border: none;
+    background: transparent;
+    border: 1px solid #26292d;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.left__content form button {
+    border-radius: 3px;
+    border: none;
+    position: absolute;
+    transition: .3s ease;
+    padding: 1.9rem;
+    right: .5rem;
+}
+
+.left__content form button a {
+    color: #26292d;
+}
+
+.ps {
+    font-size: 1.3rem;
+}
+
+.hero__banner {
+    max-width: 60rem;
+}
+
+
+/*  */
+
+.flash__cards {
+    margin: 12rem auto 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1-of-3 *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.row .col-1-of-3:not(:last-child) {
+    margin-right: 10rem;
+}
+
+.row .col-1-of-3 .header__secondary {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.row .col-1-of-3 p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.col-1-of-3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.icon__wrapper .fa-icon {
+    font-size: 3rem;
+    color: #26292d;
+    padding: 2rem;
+    background: var(--color-secondary);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/*  */
+.collabs {
+    width: 100%;
+    margin: 12rem auto 0 auto;
+}
+
+.collabs__wrapper {
+    border-top: 1px solid #26292d;
+    border-bottom: 1px solid #26292d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.collabs__wrapper img {
+    max-width: 25rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    filter: brightness(0.4);
+}
+
+/* Success */
+
+.success-stories {
+    margin: 12rem auto 10rem auto;
+}
+
+.story__title .header__primary {
+    text-align: center;
+}
+
+.story__title .description {
+    text-align: center;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story {
+    width: 30%;
+}
+
+.story img {
+    border-radius: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.header__tertiary {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.stories img {
+    max-width: 50rem;
+    max-height: 50rem;
+    filter: brightness(.3);
+}

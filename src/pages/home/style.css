@@ -1,0 +1,155 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navbar */
+
+.main-navbar {
+    width: 100%;
+    position: fixed;
+}
+
+.navbar--wrapper {
+    padding: 2rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    background-color: #171718;
+}
+
+.navbar--wrapper span {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.navbar--wrapper strong {
+    color: var(--color-secondary);
+}
+
+.profile {
+    border-radius: 2rem;
+    transition: .5s ease;
+    position: relative;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.profile-details *:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.user-container {
+    color: var(--color-primary);
+    background-color: #fff;
+    padding: 2rem 2rem;
+    border-radius: 50%;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.profile__username {
+    font-size: 2rem;
+}
+
+.fa-sort-down {
+    font-size: 1rem;
+}
+
+.profile__dropdown-menu {
+    transition: .5s ease;
+    position: absolute;
+    background-color: #171718;
+    border-radius: 2rem;
+    left: 0;
+}
+
+.dropdown-list {
+    padding: 2rem;
+    opacity: 0;
+    display: none;
+}
+
+.dropdown-item {
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    opacity: 0;
+    display: none;
+}
+
+.dropdown-item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.dropdown-item svg {
+    margin-right: 1rem;
+}
+
+/* Sidebar */
+
+.sidebar {
+    display: inline-block;
+    color: #fff;
+    margin: 9rem 0 0 0;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    background-color: #171718;
+}
+
+.sidebar__upper {
+    margin-bottom: 30rem;
+    display: inline-block;
+    padding: 4rem 4rem 0 2rem;
+}
+
+.sidebar__lower {
+    padding: 23rem 4rem 0 2rem;
+}
+
+.upper__item,
+.lower__item {
+    list-style: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.active div a {
+    color: #FFCA10;
+}
+
+.upper__item:not(:last-child),
+.lower__item:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.upper__item div,
+.lower__item div {
+    padding: 1.5rem;
+}
+
+.lower__item div {
+    margin-bottom: 6rem;
+}
+
+.upper__item svg {
+    padding-right: 2rem;
+}
+
+.lower__item svg {
+    padding-right: 1rem;
+}
+
+/* Main */
+.main-home {
+    padding-top: 10rem;
+    padding-left: 30rem;
+}

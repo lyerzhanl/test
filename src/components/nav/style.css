@@ -1,0 +1,61 @@
+.hero-navbar {
+    position: fixed;
+    width: 100%;
+    /* background: transparent; */
+    background-color: #171718;
+    color: #fff;
+    z-index: 1000;
+    border-bottom: 1px #26292d solid;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.nav__logo a {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.nav__logo strong {
+    color: var(--color-secondary);
+}
+
+.links__container ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.75rem;
+}
+
+.links__container ul li {
+    margin-right: 3rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.links__container ul li a:hover,
+.links__container ul li:hover {
+    color: var(--color-secondary-hover);
+}
+
+.nav-link i:not(:last-child) {
+    margin-right: .4rem;
+}
+
+.start__button {
+    color: var(--color-primary);
+    background: var(--color-secondary);
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.links__container ul li:last-child a:hover {
+    color: #000;
+    background: var(--color-secondary-hover);
+}

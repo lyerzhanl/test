@@ -1,0 +1,26 @@
+.checkbox .chips {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+
+.chips input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkbox-item {
+    padding: 1.5rem;
+    border: 1px #26292d solid;
+    border-radius: .5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.chips .active {
+    background-color: var(--color-secondary);
+    color: #171718;
+}
