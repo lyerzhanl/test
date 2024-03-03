@@ -11,11 +11,11 @@ const Sidebar = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: '/profile', icon: faChartLine, title: 'Profile' },
-    { path: '/exercises', icon: faDumbbell, title: 'Exercises' },
-    { path: '/meal', icon: faBurger, title: 'Meal' },
+    { path: '/test/profile', icon: faChartLine, title: 'Profile' },
+    { path: '/test/exercises', icon: faDumbbell, title: 'Exercises' },
+    { path: '/test/meal', icon: faBurger, title: 'Meal' },
     {
-      path: '/training_programs',
+      path: '/test/training_programs',
       icon: faLightbulb,
       title: 'Training Programs',
     },
@@ -46,7 +46,7 @@ const Sidebar = () => {
         <ul>
           <li className="lower__item">
             <div>
-              <Link to={'/'}>
+              <Link to={'/test/'}>
                 <FontAwesomeIcon icon={faRightFromBracket} />
                 Log Out
               </Link>

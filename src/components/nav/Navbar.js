@@ -28,17 +28,17 @@ const Navbar = () => {
         <div className="links__container">
           <ul>
             <li className="nav-link active">
-              <NavLink to="/workout-web-app/" className="">
+              <NavLink to="/test/" className="">
                 Home
               </NavLink>
             </li>
             <li className="nav-link">
-              <NavLink to="/workout-web-app/about" className="">
+              <NavLink to="/test/about" className="">
                 About Us
               </NavLink>
             </li>
             <li className="nav-link">
-              <NavLink to="/workout-web-app/contacts" className="">
+              <NavLink to="/test/contacts" className="">
                 Contacts
               </NavLink>
             </li>

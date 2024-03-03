@@ -37,19 +37,19 @@ function App() {
           <RenderContent />
 
           <Routes>
-            <Route path="/workout-web-app/" exact element={<LandingPage />} />
-            <Route path="/workout-web-app/about" element={<About />} />
-            <Route path="/workout-web-app/contacts" element={<Contacts />} />
-            <Route path="/workout-web-app/signup/welcome" element={<Welcome />} />
-            <Route path="/workout-web-app/signup/details" element={<UserData />} />
-            <Route path="/workout-web-app/signup/goals" element={<UserGoals />} />
-            <Route path="/workout-web-app/signup/bodycount" element={<BodyCount />} />
-            <Route path="/workout-web-app/signin" element={<Signin />} />
-            <Route path="/workout-web-app/exercises" element={<Exercises />} />
-            <Route path="/workout-web-app/profile" element={<Profile />} />
-            <Route path="/workout-web-app/training_programs" element={<TrainingPrograms />} />
+            <Route path="/test/" exact element={<LandingPage />} />
+            <Route path="/test/about" element={<About />} />
+            <Route path="/test/contacts" element={<Contacts />} />
+            <Route path="/test/signup/welcome" element={<Welcome />} />
+            <Route path="/test/signup/details" element={<UserData />} />
+            <Route path="/test/signup/goals" element={<UserGoals />} />
+            <Route path="/test/signup/bodycount" element={<BodyCount />} />
+            <Route path="/test/signin" element={<Signin />} />
+            <Route path="/test/exercises" element={<Exercises />} />
+            <Route path="/test/profile" element={<Profile />} />
+            <Route path="/test/training_programs" element={<TrainingPrograms />} />
           </Routes>
-          
+
           <Render />
         </ReactKeycloakProvider>
       </Router>
