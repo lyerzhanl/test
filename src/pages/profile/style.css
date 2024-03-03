@@ -1,0 +1,131 @@
+.profile-wrapper {
+    padding: 25rem 0 0 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 60vh;
+}
+.side-links {
+    padding: 10rem 20rem 0 0;
+    width: 30%;
+}
+.side-links ul li {
+    list-style: none;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    transition: .5s ease;
+}
+
+.side-links ul li:hover {
+    transform: scale(1.05);
+}
+
+li.side-link.active {
+    color: #FFCA10;
+}
+
+.profile-content {
+    width: 30%;
+}
+
+.item-group {
+    padding: 10rem 0 0 0;
+}
+
+.general-item {
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.save-changes {
+    padding: 1rem 2rem;
+    display: block;
+    float: right;
+    background-color: #FFCA10;
+    border-radius: .3rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.general-item label {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+
+.general-item input {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/* ssssss */
+
+.pass-item {
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.save-changes {
+    padding: 1rem 2rem;
+    display: block;
+    float: right;
+    background-color: #FFCA10;
+    border-radius: .3rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.item-group label {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+
+.item-group input {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/* ssss */
+
+.info-item {
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.save-changes {
+    padding: 1rem 2rem;
+    display: block;
+    float: right;
+    background-color: #FFCA10;
+    border-radius: .3rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.item-group label {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+
+.item-group input {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.border-light {
+    margin: 5rem 0;
+}
+
+.info-contacts {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    margin-bottom: 3rem;
+}

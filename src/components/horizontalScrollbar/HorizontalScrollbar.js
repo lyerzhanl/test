@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import BodyPart from "../bodyPart/BodyPart";
 import {ScrollMenu, VisibilityContext} from "react-horizontal-scrolling-menu";
-import {Typography} from "@mui/material";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import {faArrowLeft} from "@fortawesome/free-solid-svg-icons";

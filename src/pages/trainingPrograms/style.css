@@ -1,0 +1,50 @@
+.training-programs-main {
+    padding: 12rem 0 0 30rem;
+}
+.training-program {
+    margin: 5rem;
+    border: 3px solid #fff;
+    border-radius: 5rem;
+}
+
+.program-wrapper {
+    display: flex;
+    padding: 3rem;
+}
+
+.trainer {
+    border-radius: 2rem;
+    max-width: 20rem;
+}
+
+.program-description {
+    padding: 0 5rem;
+}
+
+.coach-name {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.coach-job {
+    font-size: 1.5rem;
+}
+.coach-comment {
+    margin-top: 1rem;
+    font-size: 2rem;
+    letter-spacing: normal;
+    margin-bottom: 3rem;
+}
+.program {
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    transition: .5s ease;   
+}
+
+.program:hover {
+    background-color: var(--color-secondary);
+    border-color: #000;
+    color: #000;
+}
