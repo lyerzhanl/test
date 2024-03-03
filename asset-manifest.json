@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/workout-web-app/static/css/main.a9f5cd33.css",
+    "main.js": "/workout-web-app/static/js/main.4641fcc5.js",
+    "static/media/1x1.png": "/workout-web-app/static/media/1x1.7aeee26e45fc46665458.png",
+    "static/media/group2.webp": "/workout-web-app/static/media/group2.0100727b31aa9421a110.webp",
+    "static/media/0_1.webp": "/workout-web-app/static/media/0_1.342bbb638809c1a98a05.webp",
+    "static/media/meal.webp": "/workout-web-app/static/media/meal.31dc27dbf9370cb7c295.webp",
+    "static/media/track.webp": "/workout-web-app/static/media/track.85a39549fe780d7375b4.webp",
+    "static/media/story2.jpg": "/workout-web-app/static/media/story2.aee77d75d360ecc43dd6.jpg",
+    "static/media/story3.jpg": "/workout-web-app/static/media/story3.683de8874fdcbab03585.jpg",
+    "static/media/story1.jpg": "/workout-web-app/static/media/story1.74f978489df38ffc196c.jpg",
+    "static/media/jawbone-removebg-preview.png": "/workout-web-app/static/media/jawbone-removebg-preview.121255d1db4169c404f8.png",
+    "static/media/reebok-bg-removebg-preview.png": "/workout-web-app/static/media/reebok-bg-removebg-preview.2e1e12de96de5b80a32f.png",
+    "static/media/myfitnesspal-bg-removebg-preview.png": "/workout-web-app/static/media/myfitnesspal-bg-removebg-preview.7a2c5321568f946054a3.png",
+    "static/media/abs-yellow.png": "/workout-web-app/static/media/abs-yellow.9588e637a7308f3b2b72.png",
+    "static/media/fit.png": "/workout-web-app/static/media/fit.95d40819bbf7988ffae3.png",
+    "static/media/abs-white.png": "/workout-web-app/static/media/abs-white.63e6295bab02afa822ad.png",
+    "index.html": "/workout-web-app/index.html",
+    "main.a9f5cd33.css.map": "/workout-web-app/static/css/main.a9f5cd33.css.map",
+    "main.4641fcc5.js.map": "/workout-web-app/static/js/main.4641fcc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f5cd33.css",
+    "static/js/main.4641fcc5.js"
+  ]
+}
