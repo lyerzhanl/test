@@ -43,25 +43,11 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            {keycloak.authenticated === true ? (
-              <li className="nav-link">
-                <NavLink
-                  className="start__button"
-                  onClick={async (e) => await handleSignIn(e)}
-                >
-                  Sign In
-                </NavLink>
-              </li>
-            ) : (
-              <li className="nav-link">
-                <NavLink
-                  className="start__button"
-                  onClick={() => handleSignOut()}
-                >
-                  Sign out
-                </NavLink>
-              </li>
-            )}
+            <li className="nav-link">
+              <NavLink to="/profile" className="start__button">
+                Sign In
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
