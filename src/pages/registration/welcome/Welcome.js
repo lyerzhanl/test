@@ -34,7 +34,7 @@ const Welcome = () => {
           <Link to="/" className="back">
             Back
           </Link>
-          <Link to="/signup/details" className="continue">
+          <Link to="/test/signup/details" className="continue">
             Next
           </Link>
         </div>
