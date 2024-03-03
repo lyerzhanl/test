@@ -7,10 +7,10 @@ const RenderContent = () => {
   const location = useLocation();
 
   const mainPages = [
-    '/workout-web-app/profile',
-    '/workout-web-app/exercises',
-    '/workout-web-app/meal',
-    '/workout-web-app/training_programs',
+    '/test/profile',
+    '/test/exercises',
+    '/test/meal',
+    '/test/training_programs',
   ];
   return (
     <>

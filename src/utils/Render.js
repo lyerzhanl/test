@@ -7,16 +7,16 @@ import Sidebar from '../components/sidebar/Sidebar';
 const Render = () => {
   const location = useLocation();
   const excludeFooterPaths = [
-    '/workout-web-app/signup/welcome',
-    '/workout-web-app/signup/details',
-    '/workout-web-app/signup/goals',
-    '/workout-web-app/signup/bodycount',
-    '/workout-web-app/signin',
-    '/workout-web-app/home',
-    '/workout-web-app/exercises',
-    '/workout-web-app/meal',
-    '/workout-web-app/training_programs',
-    '/workout-web-app/profile',
+    '/test/signup/welcome',
+    '/test/signup/details',
+    '/test/signup/goals',
+    '/test/signup/bodycount',
+    '/test/signin',
+    '/test/home',
+    '/test/exercises',
+    '/test/meal',
+    '/test/training_programs',
+    '/test/profile',
   ];
 
   return <>{!excludeFooterPaths.includes(location.pathname) && <Footer />}</>;
