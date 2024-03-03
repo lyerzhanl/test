@@ -26,6 +26,7 @@ const Profile = () => {
 
   return (
     <div className="profile-wrapper">
+      <h1 className="header__primary">Profile</h1>
       <div className="side-links">
         <ul>
           <li

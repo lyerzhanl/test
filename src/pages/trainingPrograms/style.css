@@ -1,6 +1,12 @@
 .training-programs-main {
     padding: 12rem 0 0 30rem;
 }
+
+.training-programs-main .header__primary {
+    text-align: center;
+    padding: 5rem 0;
+}
+
 .training-program {
     margin: 5rem;
     border: 3px solid #fff;

@@ -1,6 +1,7 @@
 .hero-navbar {
     position: fixed;
     width: 100%;
+    top: 0;
     /* background: transparent; */
     background-color: #171718;
     color: #fff;

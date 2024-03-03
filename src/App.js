@@ -27,6 +27,7 @@ import keycloak from './keycloak/Keycloak';
 import { ReactKeycloakProvider } from '@react-keycloak/web';
 import TrainingPrograms from './pages/trainingPrograms/TrainingPrograms';
 import Profile from './pages/profile/Profile';
+import Meal from './pages/meal/Meal';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             <Route path="/test/exercises" element={<Exercises />} />
             <Route path="/test/profile" element={<Profile />} />
             <Route path="/test/training_programs" element={<TrainingPrograms />} />
+            <Route path="/test/meal" element={<Meal />} />
           </Routes>
 
           <Render />

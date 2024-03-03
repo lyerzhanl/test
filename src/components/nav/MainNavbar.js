@@ -45,7 +45,7 @@ const MainNavbar = () => {
                         style={profileStyle}
                     >
                         <div className="user-container"></div>
-                        <p className="profile__username">gittarakur</p>
+                        <p className="profile__username">Kachok User</p>
                         <FontAwesomeIcon icon={faSortDown} style={sortDownStyles}/>
                     </div>
                     <div className="profile__dropdown-menu">
