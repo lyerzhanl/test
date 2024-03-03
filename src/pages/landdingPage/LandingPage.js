@@ -26,7 +26,7 @@ const LandingPage = () => {
 
   const handleEmail = (e) => {
     e.preventDefault();
-    navigate('/signup/welcome')
+    navigate('/test/signup/welcome')
   }
   return (
     <>
